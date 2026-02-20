@@ -1,21 +1,14 @@
-﻿namespace knightmoves;
+namespace knightmoves;
 
 public abstract class Animal 
 { 
-      public abstract string Speak();
+    public abstract string Speak();
 }
 
 public class Cat : Animal
 {
-      public override string Speak()
-      {
-            public string Say() {
-            return "meow";
-            }
-      }
+    public override string Speak()
+    {
+        return "meow";
+    }
 }
-
-
-
-
-
